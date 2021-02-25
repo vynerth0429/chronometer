@@ -14,6 +14,7 @@ function App() {
         style={{
           backgroundImage: "url(" + IMGHills + ")",
           backgroundPosition: 'bottom',
+          backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
         }}>
           <div
