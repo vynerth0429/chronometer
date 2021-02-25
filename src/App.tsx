@@ -1,29 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+
+import IMGStars from './assets/images/bg-stars.svg';
+import IMGHills from './assets/images/pattern-hills.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-screen bg-darker-blue">
+      <div className="h-full"
+        style={{
+          backgroundImage: "url(" + IMGHills + ")",
+          backgroundPosition: 'bottom',
+          backgroundRepeat: 'no-repeat',
+        }}>
+          <div
+            className="h-full"
+            style={{
+              backgroundImage: "url(" + IMGStars + ")",
+              backgroundPosition: 'top',
+              backgroundRepeat: 'no-repeat',
+            }}>
 
-      <div className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
-        Coded by <a href="http://reylab.tech/">Jun Rey Ellezo</a>.
-      </div>
+
+          </div>
+        </div>
     </div>
   );
 }
