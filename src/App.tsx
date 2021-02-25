@@ -19,6 +19,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <div className="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="http://reylab.tech/">Jun Rey Ellezo</a>.
+      </div>
     </div>
   );
 }
