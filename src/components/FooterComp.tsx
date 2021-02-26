@@ -11,13 +11,16 @@ function FooterComp() {
     <div className="flex space-x-6">
       <SocialComp
         icon={IconFacebook}
-        link={'https://www.facebook.com'} />
+        link={'https://www.facebook.com'}
+        label={'Facebook'} />
       <SocialComp
         icon={IconPinterest}
-        link={'https://www.pinterest.com/'} />
+        link={'https://www.pinterest.com/'}
+        label={'Pinterest'} />
       <SocialComp
         icon={IconInstagram}
-        link={'https://www.instagram.com/'} />
+        link={'https://www.instagram.com/'}
+        label={'Instagram'} />
     </div>
   )
 }
